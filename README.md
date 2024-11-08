@@ -6,8 +6,10 @@ A Python-based packet sniffer that filters network traffic by certain protocols 
 . Usage
 . Features
 . Output Example
+
 #Installation
 on your kali linux terminal
+
 . git clone https://github.com/RaghadAlYatim/CodeAlpha_Basic_Network_Sniffer.git
 . cd CodeAlpha_Basic_Network_Sniffer
 . pip install scapy
@@ -23,6 +25,6 @@ EXAMPLE: sudo python sniffer.py eth0 TCP,UDP verbose
 . verbose mode for displaying packet details in real time.
 . smoothly shuts off using a SIGINT signal (such as Ctrl+C).
 
-#Output Example
+# Output Example
 ![Screenshot of packet sniffer code run and results](https://github.com/user-attachments/assets/db339cba-6c45-4804-b0b6-30df8e1c0984)
 ![Screenshot of file logged with packets information during sniffing](https://github.com/user-attachments/assets/59c9d17b-c3bf-4bd7-a8fe-9e0e62bbd708)
