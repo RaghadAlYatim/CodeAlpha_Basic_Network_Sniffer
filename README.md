@@ -11,18 +11,25 @@ A Python-based packet sniffer that filters network traffic by certain protocols 
 on your kali linux terminal
 
 . git clone https://github.com/RaghadAlYatim/CodeAlpha_Basic_Network_Sniffer.git
+
 . cd CodeAlpha_Basic_Network_Sniffer
+
 . pip install scapy
+
 . chmod +x codeAlpha_Packet_Sniffer.py
 
 # Usage
 sudo python codeAlpha_Packet_Sniffer.py <interface> <protocols> [verbose]
+
 EXAMPLE: sudo python sniffer.py eth0 TCP,UDP verbose
 
 # The features
 . records and keeps track of network packets for chosen protocols.
+
 . Protocol-type filters include TCP, UDP, and ICMP.
+
 . verbose mode for displaying packet details in real time.
+
 . smoothly shuts off using a SIGINT signal (such as Ctrl+C).
 
 # Output Example
