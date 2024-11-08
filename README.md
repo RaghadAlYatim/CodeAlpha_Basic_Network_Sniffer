@@ -30,6 +30,8 @@ EXAMPLE: sudo python sniffer.py eth0 TCP,UDP verbose
 
 . verbose mode for displaying packet details in real time.
 
+. logs packet sniffing information into a logged file
+
 . smoothly shuts off using a SIGINT signal (such as Ctrl+C).
 
 # Output Example
