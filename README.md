@@ -37,3 +37,4 @@ EXAMPLE: sudo python sniffer.py eth0 TCP,UDP verbose
 # Output Example
 ![Screenshot of packet sniffer code run and results](https://github.com/user-attachments/assets/db339cba-6c45-4804-b0b6-30df8e1c0984)
 ![Screenshot of file logged with packets information during sniffing](https://github.com/user-attachments/assets/59c9d17b-c3bf-4bd7-a8fe-9e0e62bbd708)
+explanation video on my LinkedIn page posts (https://www.linkedin.com/in/raghad-al-yatim-0619282a6/)
